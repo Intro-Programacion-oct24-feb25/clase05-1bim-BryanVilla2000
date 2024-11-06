@@ -30,7 +30,9 @@ public class Ejemplo3 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
-            if ((promedio >= 5) && (promedio < 7.5)) { // AND 
+            // NO UTILIZAR EL OR YA QUE AL UTILIZARLO LA SENTENCIA SE VOLVERIA 
+            //VERDADERA Y ENTRARIA A EJECUTAR EL CODIGO
+            if ((promedio >= 5) && (promedio < 7.5)) { 
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
